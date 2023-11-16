@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(132, 193, 209);
+}
+
+h1{
+    position: relative;
+    text-align: center;
+}
+
+.dropdown{
+    margin-left: 90%;
+}
+
+button{
+    background-color: dimgray;
+}
+img{
+    margin: 2px;
+    height: 150px;
+    width: 150px;
+    border-radius: 12%;
+    border: 2px solid rgb(151, 189, 46);
+
+}

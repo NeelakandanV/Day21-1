@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Dog's World</h1>
+    <div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Filters
+        </a>
+        <ul class="dropdown-menu ">
+            <form id="form" action="">
+                <li>
+                    <label>No.of.images :</label>
+                    <input type="number" placeholder="max-limit:100">
+                </li>
+                <li>
+                    <label>Breeds :</label>
+                    <select class="breeds">
+                        <option value="0">without breed</option>
+                        <option value="1">has breeds</option>
+                    </select>
+                <li>
+                <li>
+                    <label>Image timeframe :</label>
+                    <select class="image-order">
+                        <option value="RAND">Random</option>
+                        <option value="ASC">old to new</option>
+                        <option value="DESC">new to old</option>
+                    </select><br>
+                    <button type="submit">Apply</button>          
+                </li>
+            </form>
+        </ul>
+    </div>
+
+    <div class="parent">
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
